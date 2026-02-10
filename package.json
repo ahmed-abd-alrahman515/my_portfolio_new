@@ -72,4 +72,7 @@
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
   }
+  {
+  "packageManager": "pnpm@10.29.2"
+}
 }
