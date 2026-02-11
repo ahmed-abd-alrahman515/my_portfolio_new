@@ -41,19 +41,19 @@ export function Navigation() {
               {link.label}
             </Link>
           ))}
-          {/* <div className="ml-2">
+           <div className="ml-2">
             <ThemeToggle />
-          </div> */}
+          </div> 
         </nav>
 
         {/* Mobile Menu Button */}
-        {/* <div className="flex items-center gap-2 md:hidden">
+         <div className="flex items-center gap-2 md:hidden">
           <ThemeToggle />
           <Button variant="ghost" size="icon" onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="h-9 w-9">
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             <span className="sr-only">Toggle menu</span>
           </Button>
-        </div> */}
+        </div> 
       </div>
 
       {/* Mobile Navigation */}
